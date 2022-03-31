@@ -1,0 +1,34 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<h1>Blackjack</h1>
+	<p id="message-el">Want to play a round?</p>
+	<p id="dealer-el">Prize pool:</p>
+	<p id="dealerCards-el"></p>
+	<p id="dealerSum-el"></p>
+
+	<button onclick="startGame()" id="start-el">START GAME</button>
+	<button onclick="newCard()" id="newCard-el">NEW CARD</button>
+	<button onclick="hold()" id="hold-el">HOLD / FOLD</button>
+
+	<p id="player-el"></p>
+	<p id="cards-el">Your Cards:</p>
+	<p id="sum-el">Your Total:</p>
+	<canvas height="192" width="710"></canvas>
+
+	<p>Please note:
+		<br>
+		This version designates Aces as worth 11 only, not 1.
+		<br> This will be implemented at a later date.
+		<br> Max 5 cards per hand. Good luck!
+
+	</p>
+
+	<script src="index.js"></script>
+</body>
+
+</html>
