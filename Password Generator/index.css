@@ -1,0 +1,97 @@
+html, body {
+    margin: auto;
+    padding: 20px;    
+    background: #1F2937;
+    display: block;
+    color: white;
+}
+
+h1{
+    margin: 0;
+    padding-left: 10px;
+}
+
+p {
+    padding-left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    color: #D5D4D8;
+}
+
+#title{
+    color: #10B981;
+    text-align: left;
+}
+
+#container-main{
+    width: 470px;
+    height: auto;
+    padding: 10px;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+
+.button{
+    margin: 5px;
+    padding: 10px;
+    width: 210px;
+    height: auto;
+
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    
+    font-size: 16px;
+    color: white;
+    
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.button:hover{
+    height: auto;
+    word-break: break-all;
+    white-space: normal;
+    font-weight: bold;
+}
+
+hr{
+    margin-top: 20px;
+    margin-left: 5px;
+    float: left;
+    width: 91%;
+    height: 2px;
+    background-color: darkslategray;
+    border: none;
+}
+
+#results {
+    display: inline-table;
+}
+
+#results .button {
+    background-color: darkslategray;
+    opacity: 50%;
+    color: #10B981;
+}
+
+#results .button:hover{
+    color: white;
+    background: #10B981;
+    opacity: 100%;
+}
+
+input{
+    margin: 20px;
+}
+
+#slide{
+    width: 75%;
+}
