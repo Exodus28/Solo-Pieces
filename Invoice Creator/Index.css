@@ -1,0 +1,226 @@
+
+/*couldn't be bothered hashing this up from scratch - more intention of practicing JS here not CSS, so just copied the CSS properties from FIGMA template without much care for duplication*/
+
+
+body{
+    width: 550px;
+    height: auto;
+    background: #1F2937;
+}
+
+.font1{
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.font2{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #D5D4D8;
+}
+
+#rectangle105{
+    position: absolute;
+    width: 100%;
+    height: 190px;
+    left: 0px;
+    top: 0px;
+    background: #3A69D2;
+}
+
+#heading{
+    position: absolute;
+    width: 354px;
+    height: 40px;
+    left: 98px;
+    top: 25px;
+
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+    
+#supportingText1{
+    position: absolute;
+    width: 408px;
+    height: 31px;
+    left: 71px;
+    top: 80px;
+
+    margin-top: 20px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#taskGroup{
+    position: relative;
+    width: 473px;
+    height: 45px;
+    left: 38px;
+    top: 231px;
+}
+
+button{
+
+    width: 143.17px;
+    height: 45px;
+
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px;
+    margin: 5px;
+
+    background: #D1D4F4;
+    border-radius: 7px;
+}
+
+.buttonText{
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #4A4E74;
+}
+
+#supportingText2{
+    position: absolute;
+    width: 95px;
+    height: 22px;
+    left: 39px;
+    top: 319px;
+}
+
+#supportingText3{
+
+    position: relative;
+    width: 78px;
+    height: 22px;
+    left: 432px;
+    top: 265px;
+
+    text-align: right;
+}
+
+#taskList{
+    display: block;
+    overflow: auto;
+    height:fit-content;
+    margin-top: 255px;
+}
+
+#tasks{
+    position: relative;
+    
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+
+    text-align: left;
+
+    color: #F5F5F5;
+}
+
+hr{
+    position: relative;
+    width: 471px;
+    height: 0px;
+
+    border: 2px solid #C3C6DB;
+}
+
+#supportingText4{
+    position: relative;
+    width: 105px;
+    height: 28px;
+    left: 39px;
+}
+
+#supportingText5{
+    position: relative;
+    width: 188px;
+    height: 22px;
+    left: 322px;
+    top: -35px;
+
+    text-align: right;
+}
+
+#result{
+    position: relative;
+    width: 105px;
+    height: 28px;
+    left: 405px;
+    top: -30px;
+
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 32px;
+
+    text-align: right;
+
+    color: #F5F5F5;
+}
+
+#send{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+
+    position: relative;
+    width: 473px;
+    height: 44px;
+    left: 38px;
+
+    background: #3A69D2;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+}
+
+.sendBtnText{
+    width: 98px;
+    height: 24px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+#mailIcon{
+    width: 30px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.remove-btn{
+    background: none;
+    border: none;
+    color: grey;
+}
+
+.itemCost{
+    margin-top: 15px;
+    margin-right: 40px;
+    float: right; 
+}
